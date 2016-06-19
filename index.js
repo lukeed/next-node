@@ -1,10 +1,15 @@
-'use strict';
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
+/**
+ * Get the next Node within a container; without leaving container.
+ * @param  {Node} node      The first node.
+ * @param  {Node} container The container.
+ * @return {Node}           The next node.
+ */
+module.exports = function (node, container) {
+	if (node.firstChild) return node.firstChild;
+	while (node) {
+		// do not walk out of the container
+		if (node == container) return null;
+		if (node.nextSibling) return node.nextSibling;
+		node = node.parentNode;
 	}
-
-	opts = opts || {};
-
-	return str + ' & ' + (opts.postfix || 'rainbows');
 };
