@@ -25,5 +25,9 @@
   "devDependencies": {
     "ava": "^0.15.1",
     "jsdom": "^9.4.1"
+  },
+  "ava": {
+    "files": ["./test/index.js"],
+    "require": ["./test/setup.js"]
   }
 }
