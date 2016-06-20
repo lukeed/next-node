@@ -23,6 +23,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.15.1"
+    "ava": "^0.15.1",
+    "jsdom": "^9.4.1"
   }
 }
