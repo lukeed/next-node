@@ -1,6 +1,6 @@
 {
   "name": "next-node",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the next Node Element, with option not to leave its container.",
   "license": "MIT",
   "repository": "lukeed/next-node",
@@ -27,7 +27,11 @@
     "jsdom": "^9.4.1"
   },
   "ava": {
-    "files": ["./test/index.js"],
-    "require": ["./test/setup.js"]
+    "files": [
+      "./test/index.js"
+    ],
+    "require": [
+      "./test/setup.js"
+    ]
   }
 }
