@@ -1,7 +1,7 @@
 {
   "name": "next-node",
   "version": "0.0.0",
-  "description": "My epic module",
+  "description": "Get the next Node Element, with option not to leave its container.",
   "license": "MIT",
   "repository": "lukeed/next-node",
   "author": {

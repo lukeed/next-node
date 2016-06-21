@@ -1,6 +1,6 @@
 /**
  * Get the next Node within a container; without leaving container.
- * @param  {Node} node      The first node.
+ * @param  {Node} node      The initial node.
  * @param  {Node} container The container.
  * @return {Node}           The next node.
  */
