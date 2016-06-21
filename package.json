@@ -19,7 +19,13 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "next child",
+    "next element",
+    "next node",
+    "next sibling",
+    "node element",
+    "sibling node",
+    "sibling element"
   ],
   "dependencies": {},
   "devDependencies": {
