@@ -1,6 +1,6 @@
 # next-node [![Build Status](https://travis-ci.org/lukeed/next-node.svg?branch=master)](https://travis-ci.org/lukeed/next-node)
 
-> Get the next Node Element, with option not to leave its container.
+> Get the next Node Element, with optional container restriction.
 
 
 ## Install
