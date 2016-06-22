@@ -1,6 +1,6 @@
 {
   "name": "next-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the next Node Element, with optional container restriction.",
   "license": "MIT",
   "repository": "lukeed/next-node",
