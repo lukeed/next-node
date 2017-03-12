@@ -1,5 +1,6 @@
 import test from 'ava';
 import fn from '../';
+import './setup';
 
 const id = str => document.getElementById(str);
 
