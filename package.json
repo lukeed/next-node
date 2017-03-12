@@ -13,6 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "build": "rollup src/index.js -f cjs -o dist/index.js",
     "test": "ava test/index.js"
   },
   "files": [
@@ -30,6 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.1",
-    "jsdom": "^9.4.1"
+    "jsdom": "^9.4.1",
+    "rollup": "^0.41.5"
   }
 }

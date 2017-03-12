@@ -1,10 +1,12 @@
+'use strict';
+
 /**
  * Get the next Node within a container; without leaving container.
  * @param  {Node} node      The initial node.
  * @param  {Node} container The container.
  * @return {Node}           The next node.
  */
-module.exports = function (node, container) {
+var index = function (node, container) {
 	if (node.firstChild) return node.firstChild;
 	while (node) {
 		// do not walk out of the container
@@ -13,3 +15,5 @@ module.exports = function (node, container) {
 		node = node.parentNode;
 	}
 };
+
+module.exports = index;

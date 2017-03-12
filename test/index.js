@@ -1,5 +1,5 @@
 import test from 'ava';
-import fn from '../';
+import fn from '../dist';
 import './setup';
 
 const id = str => document.getElementById(str);
