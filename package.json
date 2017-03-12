@@ -4,6 +4,12 @@
   "description": "Get the next Node Element, with optional container restriction.",
   "license": "MIT",
   "repository": "lukeed/next-node",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
   "author": {
     "name": "Luke Edwards",
     "email": "luke.edwards05@gmail.com",
@@ -16,9 +22,6 @@
     "build": "rollup src/index.js -f cjs -o dist/index.js",
     "test": "ava test/index.js"
   },
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     "next child",
     "next element",
